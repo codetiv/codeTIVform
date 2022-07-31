@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: border-box;
+}
+
+body {
+  background: linear-gradient(to left, black, grey)
+}
+header {
+  text-align: center;
+}
+span {
+  font-family: hurricane;
+  font-style: italic;
+  font-size: 11px;
+  color: goldenrod;
+}
+
+div{
+  padding: 5px;
+  text-align: left;
+}
+
+form {
+  padding: 25px;
+  background: grey;
+  border: goldenrod solid 2px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 100px;
+}
+
+input, button {
+  width: 100%;
+  font-family: 'Lobster', cursive;
+  background: linear-gradient(grey, lightgrey);
+  border-radius: 5px;
+  font-size: 15px;
+}
