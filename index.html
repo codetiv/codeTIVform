@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>codeTIV survey</title>
+    <title>survey</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
     <header id="main">
       <h1 id="title">code<span>TIV</span> Survey</h1>
-      <p id="description">Help me become a better creator!</p>
+      <p id="description">Help me become a better developer!</p>
     </header>
     <form id="survey-form">
-      <div id="name">
-        <h4>Name</h4>
-        <input button>enter your name</button>
+      <div class="name">
+        <label id="name-label">Name</label>
+        <input button id="name" type="text" required placeholder="enter your name"></button>
       </div>
-      <div id="email">
-        <h4>Email</h4>
-        <input button>enter your email</button>
+      <div class="email">
+        <label id="email-label">Email</label>
+        <input button id="email" type="email" required placeholder="enter your email"></button>
       </div>
-      <div id="age">
-        <h4>Age <span>(optional)</span></h4>
-        <input button>enter your age</button>
+      <div class ="age">
+        <label id="number-label">Age <span>(optional)</span></label>
+        <input button id="number" type="number" min="1" max="99" placeholder="enter your age"></button>
       </div>
       <div id="info">
         <h4>info</h4>
-        <input button>info</button>
+        <input button placeholder="info"></button>
       </div>
       <div id="option">
         <h4>option</h4>
-        <input button>options</button>
+        <input button placeholder="options"></button>
       </div>
       <div id="option2">
         <h4>option2</h4>
-        <input button>options 2</button>
+        <input button placeholder="options 2"></button>
       </div>
       <div id="comment">
-        <h4>comments</h4>
-        <input button>comments</button>
+        <h4>Comments</h4>
+        <textarea class="comment" placeholder="Hire ME!"></textarea>
       </div>
-      <div id="submit-button">
-        <button>submit</button>
+      <div class="submit">
+      <button id="submit" type="submit">Submit</button>
       </div>
     </form>
   </body>
