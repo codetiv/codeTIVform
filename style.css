@@ -31,10 +31,18 @@ form {
   margin: 100px;
 }
 
-input, button {
+input, button, select, fieldset {
   width: 100%;
   font-family: 'Lobster', cursive;
   background: linear-gradient(grey, lightgrey);
   border-radius: 5px;
   font-size: 15px;
+}
+
+fieldset {
+  margin: 10px;
+}
+
+fieldset > div {
+  text-align: center;
 }
