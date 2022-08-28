@@ -36,6 +36,10 @@
           <option value="option-3">option #3</option>
           <option value="options-4">option #4</option>
         </select>
+        <input type="radio" id="hired" name="me" value="hired" checked>
+      <label for="survey-form">Hired</label>
+      <input type="radio" id="recommend" name="me" value="recommend" checked>
+      <label for="recommend">Recommend</label>
       <label><h4>Option 2<h4></label>
         <select id="dropdown-2">
           <option value="option-1">option #1</option>
@@ -43,10 +47,18 @@
           <option value="option-3">option #3</option>
           <option value="options-4">option #4</option>
         </select>
-      <input type="checkbox" id="survey-form" name="me" value="hired" checked>
-      <label for="survey-form">Hired</label>
-      <input type="checkbox" id="recommend" name="me" value="recommend" checked>
-      <label for="recommend">Recommend</label>
+      <fieldset id="survey-form">
+        <h4>Get me Hired!</h4>
+        <div>
+          <input type="checkbox" id="hire" name="hire" checked>
+          <label for="hire">Hire</label>
+        </div>
+        <div>
+          <input type="checkbox" id="recommending" name="reommending" checked>
+          <label for="recommending">Recommeneding</label>
+        </div>
+
+      </fieldset>
       <div id="comment">
         <h4>Comments</h4>
         <textarea class="comment" placeholder="Hire ME!"></textarea>
